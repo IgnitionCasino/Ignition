@@ -1,0 +1,494 @@
+/* GENERAL */
+body {
+	background:#f9f9f9;
+	color:#000;
+	height:100%;
+	text-align:center;
+	display:block;
+	font-family:'Droid Sans', arial, serif;
+	font-size:16px;
+}
+h1,h2,h3,h4 {
+	font-family:'Yanone Kaffeesatz', arial, serif;
+}
+h1 {
+  font-size:2.4em;
+  font-weight:600;
+  font-style:normal;
+  margin: 30px 0 30px 0;
+}
+h2 {
+  font-size:2.2em;
+  font-weight:600;
+  font-style:normal;
+  margin: 40px 0 15px 0;
+}
+h3 {
+  font-size:2em;
+  font-weight:600;
+  font-style:normal;
+  margin: 40px 0 15px 0;
+}
+h4 {
+  font-size:1.8em;
+  font-weight:600;
+  font-style:normal;
+  margin: 30px 0 15px 0;
+}
+ul {
+   list-style-position: inside;
+   padding-left:0px;
+}
+p {
+	margin-top:3px; 
+}
+.right {
+	float:right;
+}
+.left {
+	float:left;
+}
+.clear {
+	clear:both;
+}
+/*h2 {
+	font-family:'Yanone Kaffeesatz', arial, serif;
+	font-weight:bold;
+	font-size:22px;
+	margin-bottom:5px; 
+	margin-top:5px;
+}*/
+/* ADS */
+.responsive-ad {
+  width:336px;
+  height:280px;
+}
+/* HEADER */
+#header {
+	width:300px;
+	position:relative;
+	margin:0 auto;
+}
+#header a {
+    text-decoration:none;
+    color: #000;
+}
+#logo {
+	margin-top:8px;
+}
+#logo h1 {
+	text-transform:capitalize;
+	font-family:'Yanone Kaffeesatz', arial, serif;
+	font-size:62px;
+	margin:0;
+	text-transform:none;
+}
+#logo h2 {
+	font-family:'Yanone Kaffeesatz', arial, serif;
+	font-size:22px;
+	margin-top:5px;
+	font-weight:300;
+	color:#2F2F2F;
+	border-bottom:2px dashed #2F2F2F;
+	padding-bottom:5px;
+	padding-top:5px;
+	border-top:2px dashed #2F2F2F;
+	width:260px;
+	text-align:center;
+	margin:0 auto;
+	text-transform:none;
+}
+/* FEATURED / HOMEPAGE */
+.featured, .gpfeatured {
+ 	display: inline-block;
+	vertical-align: top;
+  width:320px;
+  -moz-column-count: 1;
+  -webkit-column-count: 1;
+  column-count: 1;
+}
+.featured a, .gpfeatured a {
+  background-color: #fff;
+  text-align:left;
+	text-decoration: none; 
+	color:#000000;
+  display: inline-block;
+  width:300px;
+  height:100px;
+  border: 1px solid #AAAAAA; 
+	padding: 15px 5px 15px 15px;
+  margin: 5px 0;
+  vertical-align:top;
+}
+.featured a b, .gpfeatured a b {
+  font-size:20px;
+  display:block;
+  margin:0px;
+  padding:0px;
+}
+.featured a p, .gpfeatured a p {
+  padding:0px;
+  margin:0px;
+}
+.featured a img, .gpfeatured a img, .featured a amp-img, .gpfeatured a amp-img {
+	border-radius:9px;
+  width:100px;
+  height:100px;
+	margin: 0px 10px 0px 0px;
+	padding: 0;
+	float: left;
+}
+.advert {
+  display: inline-block;
+  font-size:12px;
+ 	text-decoration: none; 
+	color:#000000;
+  width:320px;
+  height:122px;
+	padding: 0px 0px;
+  margin: 5px 0px;
+}
+.infeed-ad {
+  background-color: #fff;
+  display: inline-block;
+  font-size:12px;
+ 	text-decoration: none; 
+	color:#000000;
+  width:310px;
+  height:132px;
+  border: 1px solid #AAAAAA; 
+	padding: 5px 5px 15px 5px;
+  margin: 5px 0px 0px 0px;
+}
+
+.advert img {
+  width:320px;
+  height:100px;
+}
+/* Responsive homepage stuff */
+@media only screen and (min-width: 720px) {
+ .featured {
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-count: 2;
+  width: 706px;
+ }    
+ .featured a {
+  width:320px;
+  height:106px;
+	padding: 24px 5px 15px 15px;
+  margin: 5px 0px;
+  vertical-align:top;
+ }
+ .advert {
+   width:340px;
+   height:302px;
+   border: 1px solid #AAAAAA; 
+   background-color: #fff;
+ }
+ .advert img {
+  width:336px;
+  height:280px;
+ }
+ .infeed-ad {
+  width:330px;
+  height:132px;
+  padding: 8px 5px 5px 5px;
+ }
+}
+@media only screen and (min-width: 1072px) {
+ .featured {
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+  column-count: 3;
+  width: 1060px;
+ }
+}
+@media only screen and (min-width: 1424px) {
+ .featured {
+  -moz-column-count: 4;
+  -webkit-column-count: 4;
+  column-count: 4;
+  width: 1412px;
+ }
+}
+@media only screen and (min-width: 11776px) {
+ .featured {
+  -moz-column-count: 5;
+  -webkit-column-count: 5;
+  column-count: 5;
+  width: 1765px;
+ }
+}
+@media only screen and (min-width: 850px) {
+ .gpfeatured {
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+  column-count: 2;
+  width: 706px;
+ }    
+ .gpfeatured a {
+  width:320px;
+  height:106px;
+	padding: 24px 5px 15px 15px;
+  margin: 5px 0px;
+  vertical-align:top;
+ } 
+}
+@media only screen and (min-width: 1300px) {
+ .gpfeatured {
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+  column-count: 3;
+  width: 1060px;
+ }
+}
+/* whitebox used on both game pages and blog style pages */
+.whitebox {
+  position:relative;
+  z-index: 10;
+  background-color: #fff;
+  text-align:center;
+	text-decoration: none; 
+	color:#000000;
+  display: inline-block;
+  width:90%;
+  border: 1px solid #AAAAAA; 
+	padding: 15px 0px;
+  margin: 5px 0px;
+  vertical-align:top;
+}
+/* Blog style pages */
+.blogwb {
+   position:relative;
+  z-index: 10;
+  background-color: #fff;
+  text-align:center;
+	text-decoration: none; 
+	color:#000000;
+  display: inline-block;
+  border: 1px solid #AAAAAA; 
+  vertical-align:top;
+  
+  width:300px;
+  padding:5px 2% 5px 2%;
+  margin:15px auto 15px auto;
+}
+/*.blogwb p {
+   margin-left:3%;
+   margin-right:3%;
+}*/
+@media only screen and (min-width: 720px) {
+  .blogwb {
+    width:674px;
+  }
+}
+@media only screen and (min-width: 1072px) {
+  .blogwb {
+    width:1010px;
+  }
+}
+@media only screen and (min-width: 1424px) {
+  .blogwb {
+    width:1330px;
+  }
+}
+
+
+.mini h1 {
+  margin:12px 0 5px 0
+  
+}
+/* GAMEPAGE */
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    cursor: pointer;
+    text-decoration: none;
+    color: initial;
+    font-size: 18px;
+    margin: 0 10px;
+    padding:0 10px;
+    height:30px;
+    vertical-align:middle;
+    line-height:30px;
+}
+.gamewb h1 {
+  font-size:2em;
+  font-style:normal;
+  margin: 15px 0 15px 0;
+}
+.gamewb h2 {
+  font-size:2em;
+  font-style:normal;
+  margin: 15px 0 0 0;
+}
+.gamediv {
+  clear:both;
+  margin:0;
+}
+.topad {
+  display:inline-block; 
+  width:336px;  
+  padding: 0;
+  margin: 20px 25px 25px 25px; 
+  font-size:12px;
+  text-align:center;
+}
+.toptext {
+  display:inline-block; 
+  max-width:400px; 
+  margin: 20px 25px 0px 25px; 
+  text-align:center;
+}
+.stretchy-wrapper {
+	width: 100%;
+  display: inline-block;
+	position: relative;
+	background: 999;
+  z-index: 10;
+}
+.more-games {
+  position:relative;
+  z-index: 20;
+}
+.stretchy-wrapper > iframe, .stretchy-wrapper > amp-iframe  {
+	position: absolute;
+  width:100%;
+  height:100%;
+  max-height:80vh;
+	top: 0; bottom: 0; left: 0; right: 0;
+	color: white;
+	font-size: 24px;
+	text-align: center;
+}
+iframe.fullScreen, amp-iframe.fullScreen {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/*responsive gamepage & whitebox stuff*/
+@media only screen and (min-width: 1100px) {
+  .topad {
+    margin-right:8%;
+  }
+  .toptext {
+    margin-left:8%;
+  }
+/*  .blogwb {
+    max-width:1050px;
+  }*/
+}
+@media only screen and (max-width: 980px) {
+  .whitebox {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    margin-left:5%;
+  }
+  .topad {
+    order:1;  
+    margin: 0;
+    padding: 0;   
+  }
+  .toptext {
+    order:3;
+  }
+  .gamediv {
+    width:100%;
+    order:2; 
+    margin-top:5px;
+  }
+  .responsive-ad {
+    width:320px;
+    height:100px;
+  }
+  .more-games {
+    order:4;
+  }
+  
+/*  .blogwb {
+    max-width:700px;
+  } */
+}
+@media only screen and (max-width: 400px) {
+  body {
+    margin:0;
+    padding:0;
+  }
+  .whitebox {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    margin-left: 0;
+  }
+  .topad {
+    order:1
+    width:320px;
+  /*height:120px;*/
+    margin: 0;
+    padding:0;    
+  }
+  .toptext {
+    order:3;
+    width:300px;
+    margin: 20px 10px;
+    padding:0;   
+  }
+  .gamediv {
+    order:2;
+    width:100%;
+    margin: 0;
+    padding:0;   
+  }
+  .stretchy-wrapper {
+    width: 85%;
+  }
+  .more-games {
+    order:4;
+  }
+  
+  
+}
+/* FOOTER */
+.footer {
+ position:relative;
+ z-index: 30;
+  margin-top:50px;
+}
+.footer a {
+  text-decoration:none;
+  color: #000;
+  font-weight:bold;
+}
+.footer.fb {
+  position:relative;
+  z-index: 31;
+  font-size: 14px;
+}
+/* PAGINATOR */
+.paginator {
+  font-size: large;
+  clear:both; 
+  margin-top:20px;
+}
+.paginator a {
+  color: #000;
+  text-decoration: none; 
+}
+/* Top tag nav */
+.topnav {
+  margin: 10px 0 10px 0;
+  clear:both;
+}
+.topnav .button {
+  margin:3px; 
+  width:100px;
+}
+.selectedbutton {
+  background-color: #FFFFFF;
+}
